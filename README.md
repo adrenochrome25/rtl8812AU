@@ -1,8 +1,8 @@
 forked from https://github.com/diederikdehaas/rtl8812AU 4.3.20 version
-
+```
 sudo make -f Makefile.dkms
 sudo modprobe rtl8812au
-
+```
 
 
 # rtl8812AU
