@@ -2205,10 +2205,12 @@ endif
 
 ifneq ($(KERNELRELEASE),)
 KERNELRELEASE := $(shell uname -r)
-endif
+
 
 ########### this part for *.mk ############################
 include $(src)/hal/phydm/phydm.mk
+
+endif
 
 ########### HAL_RTL8822B #################################
 ifeq ($(CONFIG_RTL8822B), y)

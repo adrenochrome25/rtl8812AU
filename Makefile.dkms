@@ -1,6 +1,6 @@
 modname := rtl8812AU
 DKMS := dkms
-modver := 4.3.20
+modver := 5.6.4
 
 # directory in which generated files are stored
 DKMS_DEST := /usr/src/$(modname)-$(modver)
